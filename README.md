@@ -2,8 +2,7 @@
 
 The **Tourist Travel Modes** in Europe dataset provides insights into the travel behaviors of tourists visiting various European destinations. The dataset includes information on travel duration, transport modes, costs, accommodation type , and seasonal trends. This analysis aims to uncover patterns in tourism, inform budget-friendly travel decisions, and help businesses and Tourists optimise their services.
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
+# ![alt text](eurotravel.jpg)
 
 ## Dataset Overview 
  https://www.kaggle.com/datasets/ashaychoudhary/tourist-travel-modes-in-europe-dataset/data 
@@ -16,8 +15,8 @@ The **Tourist Travel Modes** in Europe dataset provides insights into the travel
 
 ## Columns Descriptions 
 
-| Column Name            | Description                                      |
-|------------------------|--------------------------------------------------|
+| Column Name           | Description                                      |
+|-----------------------|--------------------------------------------------|
 | Tourist_ID            | Unique identifier for tourists                   |
 | Country_Visited       | The European country visited                     |
 | City_Visited          | The city visited                                 |
@@ -26,7 +25,7 @@ The **Tourist Travel Modes** in Europe dataset provides insights into the travel
 | Number_of_Companions  | Number of people traveling together              |
 | Total_Travel_Cost     | Total cost of travel in euros                    |
 | Accommodation_Type    | Type of accommodation (e.g., Hotel, Hostel, Airbnb, Camping) |
-| Main_Purpose         | Main purpose of travel (e.g., Leisure, Business, Family Visit) |
+| Main_Purpose          | Main purpose of travel (e.g., Leisure, Business, Family Visit) |
 | Season_of_Visit       | Season of travel (Spring, Summer, Fall, Winter)  |
 
 
@@ -48,14 +47,25 @@ The Tourist Travel Europe Date aims to analyse travel pattern, cost, preferences
     * Assess how costs fluctuate based on seasonality.
 
 4.  **Optimise Travel Decision-Making**
-    * Provide insights for travelers to plan budget-friendly trips. H8
+    * Provide insights for travelers to plan budget-friendly trips. 
     * Help transportation and accommodation providers improve their offerings based on demand trends.
 
 
 ## Hypotheses and Validation
 This project aims to analyse Eurpoean tourist travel patterns, focusing on cost, transport modes and seasonal trends. The following hypotheses will be tested: 
-
-(Talk to conor and haf and base hypotheses on what they have coded and we can further update the readme)
+* H1: Outlier summery for each column present in the dataset.
+  * Validation - Use box plot to perform outliners summery for each column relation.
+* H2: Correlation between Travel and Travel Duration.
+  * Validation - Use scatter plotting with treand line to analyse the relation between travel and duration days.
+* H3: Perform Regression analysis to check impact of duration on cost per day.
+   * Validation - Use box and scatter plotting with treand line to analyse the relation by removing potential outliers in the Total_Travel_Cost and Travel_Duration_Days avoiding skewed results. Perform a regression analysis to quantify the impact of duration on cost per day.
+* H4: Cities with higher tourist traffic, as represented by their occurrence in the dataset, show distinct travel patterns based on latitude and longitude, influencing travel preferences, costs, and seasonal demand.
+* H5: The duration of travel and the number of companions influence total travel costs, with longer trips and larger groups generally leading to higher expenses.
+  * Validation - Use Map box to plot travel patterns which influence cost, preferences and seasonal demand. Further analysis which gives relation between duration,no. of companions, Travel cost.
+* H6:Tourists who travel by flight have higher average travel costs compared to those who travel by train, bus, or car.
+  * Validation -Use Bar Plot to perform analysis to check how mode of travel impact the travel cost.
+* H7: Relationship between Total Travel Cost, Season of Visit, and Main Purpose of Travel.
+  * Validation - Perform a heatmap correlation analysis to check relationship between season, main purpose, and cost.
 
 ## Project Plan
 This project follows a structured analytical approach: 
@@ -83,9 +93,9 @@ This project follows a structured analytical approach:
 ## Mapping Business Requirements to Data Visualisations 
 This project aligns business requirements with data visualisations methods: 
 
-| Business Requirement                                | Visualization Method                                  |
+| Business Requirement     | Visualization Method    |
 |-----------------------------------------------------|------------------------------------------------------|
-| Identify most visited destinations                 | Bar chart of top cities/countries                   |
+| Identify most visited destinations  | Bar chart of top cities/countries                   |
 | Analyse seasonal travel trends                     | Line graph of trips per season                      |
 | Compare travel costs across transport modes        | Boxplot or bar chart                                |
 | Evaluate accommodation preferences                 | Pie chart or stacked bar chart                      |
@@ -128,31 +138,6 @@ No major bugs found. However some challenges included:
 * Addressed gaps in Tableau expertise through peer feedback and online resources 
 * Improved Statistical Hypothesis testing skills during analysis. 
 
-## Development Roadmap
-**Challenges Faced:**
-* **Data Formatting Issues:** Inconsistent categorical values required cleaning. 
-* **Complexity in Visualisation Selection:** Adjusted approacjes based on sights gained from EDA 
-
-**Future Improvements:**
-* **Integration of External Data:** Including economic and toursim data for enriched insights. 
-* **Predictive Modelling:** Estimating future travel costs based on historical trends. 
-*  **Further Skills Development:** Advancing knowledge in Power BI and advanced machine learning techniques 
-
-## Deployment
-### Heroku
-
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
-* Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-* The project was deployed to Heroku using the following steps.
-
-1. Log in to Heroku and create an App
-2. From the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
-
-
 ## Main Data Analysis Libraries
 The following Python libraries were used: 
 | Library   | Usage                                      |
@@ -189,5 +174,5 @@ Overall, the project serves as a base to understand European tourism trends and 
 * Code Institute logo [CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
-## Acknowledgements (optional)
-* Hackathon Team: Mukti, Conor, Hafeezah and Tamika for contribution in data cleaning, analysis and dashboard development. 
+## Acknowledgements
+* Hackathon Team: Mukti, Conor, Hafeezah and Tamika for contribution in data cleaning, analysis and dashboard development. Thank You Neil and Vasi for their help on resolving VS code application and Git related issues.
