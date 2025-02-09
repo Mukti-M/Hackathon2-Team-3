@@ -29,7 +29,7 @@ The **Tourist Travel Modes** in Europe dataset provides insights into the travel
 | Season_of_Visit       | Season of travel (Spring, Summer, Fall, Winter)  |
 
 
-## Objective of Dateset 
+## Objective of Dataset 
 The Tourist Travel Europe Date aims to analyse travel pattern, cost, preferences of tourist visiting European countries. The primary of this dataset analysis are:
 
 1. **Understand Tourist Behaviour**
@@ -172,6 +172,7 @@ Overall, the project serves as a base to understand European tourism trends and 
 ### Media
 
 * Code Institute logo [CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 
 
 ## Acknowledgements
