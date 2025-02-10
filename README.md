@@ -50,22 +50,42 @@ The Tourist Travel Europe Date aims to analyse travel pattern, cost, preferences
     * Provide insights for travelers to plan budget-friendly trips. 
     * Help transportation and accommodation providers improve their offerings based on demand trends.
 
-
 ## Hypotheses and Validation
 This project aims to analyse Eurpoean tourist travel patterns, focusing on cost, transport modes and seasonal trends. The following hypotheses will be tested: 
-* H1: Outlier summery for each column present in the dataset.
-  * Validation - Use box plot to perform outliners summery for each column relation.
-* H2: Correlation between Travel and Travel Duration.
-  * Validation - Use scatter plotting with treand line to analyse the relation between travel and duration days.
-* H3: Perform Regression analysis to check impact of duration on cost per day.
-   * Validation - Use box and scatter plotting with treand line to analyse the relation by removing potential outliers in the Total_Travel_Cost and Travel_Duration_Days avoiding skewed results. Perform a regression analysis to quantify the impact of duration on cost per day.
-* H4: Cities with higher tourist traffic, as represented by their occurrence in the dataset, show distinct travel patterns based on latitude and longitude, influencing travel preferences, costs, and seasonal demand.
-* H5: The duration of travel and the number of companions influence total travel costs, with longer trips and larger groups generally leading to higher expenses.
-  * Validation - Use Map box to plot travel patterns which influence cost, preferences and seasonal demand. Further analysis which gives relation between duration,no. of companions, Travel cost.
-* H6:Tourists who travel by flight have higher average travel costs compared to those who travel by train, bus, or car.
-  * Validation -Use Bar Plot to perform analysis to check how mode of travel impact the travel cost.
-* H7: Relationship between Total Travel Cost, Season of Visit, and Main Purpose of Travel.
-  * Validation - Perform a heatmap correlation analysis to check relationship between season, main purpose, and cost.
+* H1: Outlier summary for each column present in the dataset. 
+**(Validation: Use box plot analysis.)**
+
+* H2: Correlation between travel and travel duration. 
+**(Validation: Scatter plot with trend line.)**
+
+* H3: Perform regression analysis to check impact of duration on cost per day. 
+**(Validation: Regression modeling.)**
+
+* H4: Cities with higher tourist traffic show distinct travel patterns based on location. 
+**(Validation: Map visualisation.)**
+
+* H5: Travel duration and number of companions influence total travel costs. 
+**(Validation: Relationship analysis.)**
+
+* H6: Tourists traveling by flight have higher costs than other modes. 
+**(Validation: Bar plot comparison.)**
+
+* H7: Relationship between total travel cost, season, and main purpose.
+**(Validation: Heatmap correlation analysis.)**
+
+## Tableau Dashboard Overview 
+Our Tableau dashboard provides an interview visualisations of travel patterns across Europe: 
+* **KPI's:** Total tourist, average travel cost, top destinations.
+* **Filters:** Seasonality, travel mode, cost range 
+* **Charts:** Bar Charts, line graphs, heatmaps  for deep insights. 
+* (link the dashboard here)
+
+## Tableau Dashboard Screenshots 
+Here are some insights from our interactive Tableau dashboard: 
+- Add Image: Screenshot of Travel Cost 
+- Seasonal Trends Visualisation 
+- Filter Interactivity Demo 
+
 
 ## Project Plan
 This project follows a structured analytical approach: 
@@ -118,13 +138,6 @@ This project aligns business requirements with data visualisations methods:
 * **Bias & Fairness:** Ensured balanced analysis by examining all travel modes and purposes. 
 * **Legal Compliance:** Used open-source data within ethical and legal boundaries 
 
-
-## Dashboard Design
-* **Main Dashboard:** Overview of travel trends (popular destionations, transport modes, seasonality)
-* **Cost Analysis Page:** Breakdown of travel expenses based on season, country and travel type 
-* **Transport & Accomodation Trends:** Preferred travel and lodging options for different traveller types. 
-* **Interactive Filters:** Users can filter data by country, season, travel mode and purpose. 
-
 **Communication Strategy**
 * **Technical Users:** Detailed correlation charts and statistical analyses 
 * **Non-Technical Users:** Clear graphs, summary insights and key takeaways 
@@ -169,11 +182,9 @@ Overall, the project serves as a base to understand European tourism trends and 
 * Data sourced from [Tourist Travel Modes in Europe](https://www.kaggle.com/datasets/ashaychoudhary/tourist-travel-modes-in-europe-dataset/data)
 * Research methodology inspired by online case studies on travel analytics. 
 
-### Media
+## Media
 
 * Code Institute logo [CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-
 
 ## Acknowledgements
 * Hackathon Team: Mukti, Conor, Hafeezah and Tamika for contribution in data cleaning, analysis and dashboard development. Thank You Neil and Vasi for their help on resolving VS code application and Git related issues.
