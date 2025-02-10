@@ -30,12 +30,12 @@ The **EuroTrip Insights** dataset provides insights into the travel behaviors of
 
 
 ## Objective of Dataset 
-The Tourist Travel Europe Date aims to analyse travel pattern, cost, preferences of tourist visiting European countries. The primary of this dataset analysis are:
+The Tourist Travel Europe Date aims to analyse travel pattern, cost, preferences of tourist visiting European countries. The primary aim of this dataset analysis are:
 
 1. **Understand Tourist Behaviour**
-    * Identify the most visited countries and cities in Europe 
-    * Analyse the primary reason for travel (business, leisure, family visit)
-    * Determine the most common modes of transportation used by travellers 
+    * Identify the most visited countries and cities in Europe. 
+    * Analyse the primary reason for travel (business, leisure, family visit).
+    * Determine the most common modes of transportation used by travellers. 
 
 2. **Analyse Travel Cost & Spending Patterns**
     * Investigate the average cost of travel based on country, season, and travel purpose. 
@@ -67,7 +67,7 @@ This project aims to analyse Eurpoean tourist travel patterns, focusing on cost,
 * H5: Travel duration and number of companions influence total travel costs. 
 **(Validation: Relationship analysis.)**
 
-* H6: Tourists traveling by flight have higher costs than other modes. 
+* H6: Tourists traveling by different transport modes affects average cost.
 **(Validation: Bar plot comparison.)**
 
 * H7: Relationship between total travel cost, season, and main purpose.
@@ -76,7 +76,7 @@ This project aims to analyse Eurpoean tourist travel patterns, focusing on cost,
 ## Tableau Dashboard Overview 
 Our Tableau dashboard provides an interview visualisations of travel patterns across Europe: 
 * **KPI's:** Total tourist, average travel cost, top destinations.
-* **Filters:** Seasonality, travel mode, cost range 
+* **Filters:** Seasonality, travel mode, cost range. 
 * **Charts:** Bar Charts, line graphs, heatmaps  for deep insights. 
 * **Tableau Link:** https://public.tableau.com/app/profile/conor.mcdevitt/viz/Book1_17391803506290/Dashboard2?publish=yes 
 
@@ -116,18 +116,18 @@ This project aligns business requirements with data visualisations methods:
 
 | Business Requirement     | Visualization Method    |
 |-----------------------------------------------------|------------------------------------------------------|
-| Identify most visited destinations  | Bar chart of top cities/countries                   |
+| Identify most visited destinations  | Bar chart of top cities/ countries and Map Box                   |
 | Analyse seasonal travel trends                     | Line graph of trips per season                      |
 | Compare travel costs across transport modes        | Boxplot or bar chart                                |
-| Evaluate accommodation preferences                 | Pie chart or stacked bar chart                      |
+| Evaluate accommodation preferences                 | Pie chart  chart                      |
 | Assess spending patterns by travel purpose         | Heatmap or scatter plot                             |
 
 
 ## Analysis Techniques Used
-* **Descriptive Analysis:** Summary statistics to understand central tendencies in cost and duration 
-* **Correlation Analysis:** Identifying relationships between trip duration, cost and travel modes 
-* **Regression Analysis:** Quantifying cost impact based on travel duration and seasonality 
-* **Visual Analysis:** Charts and dashboards in Tableau to communicate insights effectively 
+* **Descriptive Analysis:** Summary statistics to understand central tendencies in cost and duration. 
+* **Correlation Analysis:** Identifying relationships between trip duration, cost and travel modes.
+* **Regression Analysis:** Quantifying cost impact based on travel duration and seasonality. 
+* **Visual Analysis:** Charts and dashboards in Tableau to communicate insights effectively. 
 
 **Challenges & Alternative Approaches**
 * **Data Limitations:** Lack of addictional demographic details (e.g. age and income) required assumptions for behavioural insights. 
@@ -135,9 +135,9 @@ This project aligns business requirements with data visualisations methods:
 * **Generative AI Tools:** Used for ideation, code structuring and optimisation in Python. 
 
 ## Ethical considerations
-* **Data Privacy:** The dataset does not include personal or sensitive user data 
+* **Data Privacy:** The dataset does not include personal or sensitive user data.
 * **Bias & Fairness:** Ensured balanced analysis by examining all travel modes and purposes. 
-* **Legal Compliance:** Used open-source data within ethical and legal boundaries 
+* **Legal Compliance:** Used open-source data within ethical and legal boundaries. 
 
 **Communication Strategy**
 * **Technical Users:** Detailed correlation charts and statistical analyses 
@@ -146,10 +146,10 @@ This project aligns business requirements with data visualisations methods:
 ## Unfixed Bugs
 No major bugs found. However some challenges included: 
 * **Data Gaps:** Limited atrributes affecting deeper segmentation analysis.
-* **Visualisations Adjustments:** Some chart selections were refined post-EDA for better insights
+* **Visualisations Adjustments:** Some chart selections were refined post-EDA for better insights.
 
 **Knowledge Gaps &  Learning Process**
-* Addressed gaps in Tableau expertise through peer feedback and online resources 
+* Addressed gaps in Tableau expertise through peer feedback and online resources. 
 * Improved Statistical Hypothesis testing skills during analysis. 
 
 ## Main Data Analysis Libraries
