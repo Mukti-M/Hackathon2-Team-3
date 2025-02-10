@@ -78,14 +78,15 @@ Our Tableau dashboard provides an interview visualisations of travel patterns ac
 * **KPI's:** Total tourist, average travel cost, top destinations.
 * **Filters:** Seasonality, travel mode, cost range 
 * **Charts:** Bar Charts, line graphs, heatmaps  for deep insights. 
-* (link the dashboard here)
+* **Tableau Link:** https://public.tableau.com/app/profile/conor.mcdevitt/viz/Book1_17391803506290/Dashboard2?publish=yes 
 
 ## Tableau Dashboard Screenshots 
 Here are some insights from our interactive Tableau dashboard: 
-- Add Image: Screenshot of Travel Cost 
-- Seasonal Trends Visualisation 
-- Filter Interactivity Demo 
-
+* **Travel Cost**
+![Average Travel Cost](<Screenshot 2025-02-10 154146.png>)
+* **Seasonal Trends** 
+![Seasonal Trends](<Screenshot 2025-02-10 153355.png>)
+ 
 
 ## Project Plan
 This project follows a structured analytical approach: 
@@ -184,7 +185,8 @@ Overall, the project serves as a base to understand European tourism trends and 
 
 ## Media
 
-![alt text](https://www.logoku.com/image/c/data/items1/1726852370_logokucom_eurotravel.jpg)
+* (https://www.logoku.com/image/c/data/items1/1726852370_logokucom_eurotravel.jpg)
+
 
 ## Acknowledgements
 * Hackathon Team: Mukti, Conor, Hafeezah and Tamika for contribution in data cleaning, analysis and dashboard development. Thank You Neil and Vasi for their help on resolving VS code application and Git related issues.
