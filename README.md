@@ -1,6 +1,6 @@
 # EuroTrip Insights 
 
-The **Tourist Travel Modes** in Europe dataset provides insights into the travel behaviors of tourists visiting various European destinations. The dataset includes information on travel duration, transport modes, costs, accommodation type , and seasonal trends. This analysis aims to uncover patterns in tourism, inform budget-friendly travel decisions, and help businesses and Tourists optimise their services.
+The **EuroTrip Insights** dataset provides insights into the travel behaviors of tourists visiting various European destinations. The dataset includes information on travel duration, transport modes, costs, accommodation type , and seasonal trends. This analysis aims to uncover patterns in tourism, inform budget-friendly travel decisions, and help businesses and Tourists optimise their services.
 
 # ![alt text](eurotravel.jpg)
 
@@ -184,7 +184,7 @@ Overall, the project serves as a base to understand European tourism trends and 
 
 ## Media
 
-* Code Institute logo [CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![alt text](https://www.logoku.com/image/c/data/items1/1726852370_logokucom_eurotravel.jpg)
 
 ## Acknowledgements
 * Hackathon Team: Mukti, Conor, Hafeezah and Tamika for contribution in data cleaning, analysis and dashboard development. Thank You Neil and Vasi for their help on resolving VS code application and Git related issues.
